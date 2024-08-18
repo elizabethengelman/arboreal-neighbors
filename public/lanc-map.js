@@ -1,4 +1,4 @@
-import trees from "./tree.json" assert { type: "json" };
+import trees from "./tree.json" with { type: "json" };
 
 const margin = 0;
 const width = window.innerWidth;
